@@ -1,0 +1,38 @@
+{
+  "name": "mwendwa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "SET NODE_ENV=production && node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dompurify": "^2.4.0",
+    "gray-matter": "^4.0.3",
+    "jsdom": "^20.0.2",
+    "marked": "^4.2.1",
+    "mongoose": "^6.7.0",
+    "multer": "^1.4.5-lts.1",
+    "next": "^12.3.1",
+    "next-auth": "^4.15.0",
+    "next-connect": "^0.13.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.6.0",
+    "react-markdown": "^8.0.3",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-type-animation": "^2.1.1",
+    "sharp": "^0.31.2",
+    "slugify": "^1.6.5",
+    "styled-components": "^5.3.5",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
+    "eslint": "8.16.0",
+    "eslint-config-next": "^0.2.4"
+  }
+}
