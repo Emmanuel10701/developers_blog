@@ -10,7 +10,7 @@ export default function HomePage({ posts }) {
     return (
       <>
         <Head>
-          <title>John Mwendwa Blog - A blog for curious developers</title>
+          <title>Emmanuel   - A blog for All developers</title>
           <meta
             name="description"
             content="Find articles about javascript, reactjs, nextjs, nodejs, mongodb and more..."
@@ -22,7 +22,7 @@ export default function HomePage({ posts }) {
   return (
     <>
       <Head>
-        <title>John Mwendwa Blog - A blog for curious developers</title>
+        <title>Emmanuel - A blog for All  developers</title>
         <meta
           name="description"
           content="Find articles about javascript, reactjs, nextjs, nodejs, mongodb and more..."

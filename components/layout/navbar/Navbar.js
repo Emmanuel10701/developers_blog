@@ -84,7 +84,7 @@ export default function Navbar() {
       <NavigationItems>
         <Logo>
           <CustomLink href="/">
-            <a title="Go to home page"> TECHme</a>
+            <a title="Go to home page"> Blog</a>
           </CustomLink>
         </Logo>
         <SearchContainer>
